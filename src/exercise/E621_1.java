@@ -8,8 +8,8 @@ public class E621_1 {
         Tax suzuki = new Tax(120, "鈴木浩二", 250000, 120000);
         Tax saito = new Tax(130, "斎藤渉", 400000, 180000);
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println(Kimura.zeigaku());
+        System.out.println(suzuki.zeigaku());
+        System.out.println(saito.zeigaku());
     }
 }
